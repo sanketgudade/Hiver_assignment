@@ -1,0 +1,228 @@
+tweet_id,text,bucket,label,notes,pred_llm,conf_llm
+1761317,"@AppleSupport I mean, literally, it’s my activity data from today is not being synced to the new phone 🤔screenshot from current old Phone &amp; pic of new  📱 https://t.co/KrlYPNSIe9",product_issue,product_issue,,product_issue,0.96
+652724,"@AppleSupport My phone is free, Are you arranging to pick up or shall I write to Mr. Cook. Dear Countrymen, This iPhone 7 while on charge if touched with",refund_billing,complaint_escalation,,product_issue,0.78
+2966584,"@AppleSupport Yes indeed, and this had been working fine until today. 
+
+It’s when I try to authenticate to the iMac, the password (which I know is correct) is rejected, as is the ‘Apple ID’ option.",account_access,account_access,,account_access,0.97
+2945709,"@AppleSupport Ever since I updated phone, my apps freeze and then I have to close the apps and re-open them again. I don’t understand what is going on",general_inquiry,product_issue,,product_issue,0.97
+2484235,"@AppleSupport I'm in America, can I send the full address DM?",general_inquiry,general_inquiry,,order_status,0.86
+340198,"@AppleSupport @197246 It’s a few days I have the same problem, how Can I solve??",general_inquiry,product_issue,,product_issue,0.94
+2193325,"@AppleSupport Non-functioning BT issue remains, even after resetting SMC/NVRAM (as tweeted in https://t.co/521mJs8AWU)
+
+Console also shows BT related HW errors. Diagnostics (⌥-D on boot) says everything is fine (which it is not).
+
+Will bring device to store for further inspection.",complaint_escalation,product_issue,,product_issue,0.97
+2448345,@AppleSupport I have a more important issue tho. U need to set up a way to set a “default” WiFi connection that when available the iPhone connects to regardless of what it’s currently connected to,complaint_escalation,product_issue,,general_inquiry,0.96
+2358624,@AppleSupport When will Apple Pay finally come to Germany?,order_status,general_inquiry,,general_inquiry,0.97
+2558653,@AppleSupport Anytime I try to send a SMS message it wont send. What can I do to fix it?,general_inquiry,product_issue,,product_issue,0.97
+2864879,@AppleSupport I have charges on my account that I didn't make,refund_billing,refund_billing,,refund_billing,0.98
+999905,"@AppleSupport definitely not working for me like that...""device unknown""",product_issue,product_issue,,product_issue,0.92
+1376082,@AppleSupport Constant freezing and my battery dies within a couple hours of being off of the charger.,refund_billing,product_issue,,product_issue,0.97
+756535,@AppleSupport This doesn't help either... Unable to trace why I'm charged. Please help,refund_billing,refund_billing,,refund_billing,0.97
+2557418,"@AppleSupport yeah i know, it asks for a user and a passwort, like a remote login or something, but why did it appear all of a sudden?
+because i used ssh once? :D",account_access,general_inquiry,,account_access,0.93
+2908041,"@AppleSupport Hi, thanks. Yes, I have received an email confirming the request and that it’s ready for recovery. I follow the steps, enter my security info and enter the code sent via text msg. It then says info on how to recover the account will be texted to me but I don’t receive anything.",general_inquiry,account_access,,account_access,0.97
+1151423,@AppleSupport Trying reset with trusted phone number about 30-40 times changes password done everything being told now lose it its 2:15am doing this for last five hours,account_access,account_access,,account_access,0.97
+1163900,@AppleSupport not especially helpful? google suggests this could be a notification &gt; government alerts &gt; amber alert issue but i don’t have that option!,complaint_escalation,product_issue,,product_issue,0.94
+1954105,@AppleSupport It’s  stuck with a message over it and  can’t  do anything https://t.co/mhwoQR0ekl,product_issue,product_issue,,product_issue,0.96
+2779309,"@AppleSupport How to solve some. Sorry, but I will not get into that site.",general_inquiry,unclassifiable,,general_inquiry,0.78
+557813,@AppleSupport When will it be available in the UK? 🇬🇧,order_status,general_inquiry,,general_inquiry,0.97
+875113,@AppleSupport Thanks for the link but what happened to “Play in sequential order” do I have to pick each ep one at a time now?,order_status,general_inquiry,,general_inquiry,0.96
+810378,"@AppleSupport iPad Pro 
+Does it matter?",general_inquiry,general_inquiry,,general_inquiry,0.73
+87062,"@AppleSupport Thanks for taking attention on this matter. I’m not sure if this is a bug actually, but UI looks strange. I mean when I swipe to Control Center then StatusBar moves down. Why so? It’d be better to stay in it’s new home…",product_issue,product_issue,,product_issue,0.97
+211264,@AppleSupport how can i check that? i probably do 😂,general_inquiry,general_inquiry,,general_inquiry,0.86
+484548,"@AppleSupport After visiting Apple care store with great disappointment, I tried again n charge fr 2 hour at home and guess that is fine now n I got my data back as well.
+Was this inefficiency of Apple store or they just don't wanted to serve customer.",refund_billing,complaint_escalation,,complaint_escalation,0.96
+1679914,"@AppleSupport I️ don’t wanna have to work around the issue, on a $700 phone!!",complaint_escalation,complaint_escalation,,product_issue,0.78
+2666198,"@AppleSupport Hi! What I wrote - I don't think this is an IPS panel as it was advertised. View angles are much worse than on the 4s, and there is huge gamma shift, even between what ones sees with his 2 eyes. It's a poor quality screen.",product_issue,product_issue,,product_issue,0.96
+2581991,"@AppleSupport Can't retrieve mail on https://t.co/XQhY5199hY, and I'm sent to System Preferences to try to fix it. Every time I input my password I get this error message. https://t.co/X17RGwum5N",account_access,account_access,,account_access,0.94
+2622679,@AppleSupport Also I have to charge the battery thrice a day..seems the battery is dying though the phone is not even 2 yrs old. Look forward to your help. Tks https://t.co/zoctagG1Rl,refund_billing,product_issue,,product_issue,0.97
+1803203,@AppleSupport What is DM?,general_inquiry,general_inquiry,,general_inquiry,0.97
+2812575,"@AppleSupport Yup, several times. The phone seems to be turning on and off, it's the screen that's stuck - it will turn dark blue but then not go to the apple logo screen.",product_issue,product_issue,,product_issue,0.97
+2746097,"@AppleSupport Yes, it did I changed it and said it was signed in on my iPad press okay to accept that and then said verification failed.",account_access,account_access,,account_access,0.94
+722501,@AppleSupport Battery is draining and I’ve tried all the usual settings. Also very sticky and non-responsive most of the time.,product_issue,product_issue,,product_issue,0.97
+770087,"@AppleSupport Makes sense, thank you. How can I reset password for old account at least; no access to that email nor to the Phone # on account",account_access,account_access,,account_access,0.97
+1368839,"@AppleSupport For FaceTime, it has happened bunch of times that i had restart my phone in order to receive visuals",order_status,product_issue,,product_issue,0.96
+2241936,"@AppleSupport We'll, nobody ever picks up the phone at this number which I have been asked by your staff, to get a hold of. So, if my order get delayed, for no reason, I will lose money. And I will be mad.. I have a deadline for it.. thks https://t.co/ERanwfLSZn",order_status,complaint_escalation,,order_status,0.92
+4900,@AppleSupport @116860 I have and my battery life has become even worse,product_issue,product_issue,,product_issue,0.96
+2298991,"@AppleSupport I am in France, I preorder the iphone x in Boulanger stores !",order_status,order_status,,order_status,0.93
+1711954,@AppleSupport 😭 when I️ type the letter I️ a box comes up what can I do to fix it,general_inquiry,product_issue,,product_issue,0.96
+2889526,"@AppleSupport Well guys, the solution (not solution) your team gave me was to buy a replacement from you plus I had to pay the shipping bcs I couldn't wait 1 week. Apple didn't tuck any real responsibility. Blame it on me and alleged ""preexisting"" hardware  problem.",order_status,complaint_escalation,,complaint_escalation,0.98
+2952365,@AppleSupport What if I order from USA as some the band listed on the website do support in  India. Will that work?,order_status,order_status,,general_inquiry,0.96
+631810,@AppleSupport About 7 hours. In the past it’d last plus 24 hours. I’ve got through trouble shooting before and was told I have a strong battery and they weren’t sure. Only constant is the update. Friends are experiencing the same issue.,complaint_escalation,product_issue,,product_issue,0.94
+2249937,@AppleSupport since the 12th I am using almost nothing on my phone because I forgot my icloud password and blocked my account. iphone 5s version 10.2.1,account_access,account_access,,account_access,0.97
+1193000,@AppleSupport Never mind. That didn’t work. It’s been sitting with no case on the wireless charger for 5 minutes and counting and still not locked,refund_billing,product_issue,,product_issue,0.94
+2311829,"@AppleSupport I've tried to re-set my phone, but then it asks for a verification code (sent to my mac), which isn't coming through. my Mac system preferences isn't opening the iCloud part for me to log into my appleID, so now I can't get onto my phone at all, nor into my apple ID",account_access,account_access,,account_access,0.97
+661652,@AppleSupport Can i add third party app?,general_inquiry,general_inquiry,,general_inquiry,0.97
+2799402,@AppleSupport It’s missing 6 notes I had saved. Putting people that on the block list and now telling me it doesn’t recognize my Apple ID. Only working device is the Apple Watch,account_access,account_access,,account_access,0.86
+617105,@AppleSupport Hi after 11.1 the battery would last all day I normally charge over night I would usually have 36-40 % left when I put it on charge so 7am 100% now I get homestead 6pm and I’m down to 10-15% as a rule I don’t use it at work but it’s always on,refund_billing,product_issue,,product_issue,0.97
+1726585,@AppleSupport @522183 When is the update gonna happen ? I️,general_inquiry,general_inquiry,,general_inquiry,0.95
+1624952,@AppleSupport Thx. I resolved my issue but it’s not cool to have a big bug just before back to school in France !!,complaint_escalation,complaint_escalation,,product_issue,0.93
+639716,@AppleSupport Device is backed up now how do I️ update????????,general_inquiry,general_inquiry,,general_inquiry,0.96
+2110786,@AppleSupport I got some news for you. I already did and your sales support team has zero idea why Apple is treating my order placed on the pre-order day as if it is placed today. That’s the reason I am reaching out to your captain.,order_status,order_status,,order_status,0.97
+2499258,@AppleSupport This looks good but the iPad has been restored and is waiting for this password . Is there a way to do this on the web?,account_access,account_access,,account_access,0.96
+2835759,"@AppleSupport https://t.co/Ntq6IQz83I
+I tried all steps given in the link
+including logging out of icloud and again login in the settings. 
+The error is ""An error occurred during the activation. Try again."" on facetime and imessage too",account_access,account_access,,product_issue,0.96
+2870777,@AppleSupport I did all that and still have the same issue,complaint_escalation,product_issue,,product_issue,0.86
+2237298,@AppleSupport Unless It does it automatically no,general_inquiry,general_inquiry,,complaint_escalation,0.6
+177029,"@AppleSupport I’m currently on the phone with Support for the 4th time in as many days as we speak. Hopefully this will be resolved this time. Although it’s not looking very likely. 1st product ordered directly from Apple. So far, very disappointing.",order_status,complaint_escalation,,complaint_escalation,0.96
+2007911,@AppleSupport My iPhone 7 is consuming a lot of battery during watching YouTube . It is happening after updating to 11.1.,product_issue,product_issue,,product_issue,0.96
+2212906,@AppleSupport I’ve just sent you a message with videos of the same kinda issues 😩,complaint_escalation,product_issue,,product_issue,0.92
+1170322,"@AppleSupport Thank you. I was trying to access my account through an hp laptop because my dumb self also forgot my iPad password. I am done for,",account_access,account_access,,account_access,0.96
+146548,"@AppleSupport Nope, it’s neither on charge or connected to another device.",refund_billing,product_issue,,product_issue,0.86
+391227,"@AppleSupport Yes, or no. Does the code display on the same device as the one the password is being entered?",account_access,account_access,,account_access,0.94
+1748798,"@AppleSupport My iPod won't hold a charge. I think the battery might he fried? It won't turn on and whenever plugged in, it flashes on and off",refund_billing,product_issue,,product_issue,0.97
+2689529,"@AppleSupport that’s correct I was under that impression, that I can do that. Can I?",general_inquiry,general_inquiry,,general_inquiry,0.82
+1703931,"@AppleSupport Hi, I have the iPhone X and I can’t establish my Apple ID settings on my new phone.  When it asks me for my 4 digit password it stays like: https://t.co/TcU3Nirlx3",account_access,account_access,,account_access,0.97
+865931,@AppleSupport Family share is not ON in any of my iPhones but it’s still keep asking me wrong Apple ID,account_access,account_access,,account_access,0.93
+808246,@AppleSupport Thanks for the help from my side i already did the downgrade part and i know how to handle it 😊,general_inquiry,general_inquiry,,general_inquiry,0.0
+1939412,@AppleSupport Yeah I’ve updated all my apps and it is occurring in every app. I️ also removed and reinstalled the English keyboard and the issue is unresolved,complaint_escalation,product_issue,,product_issue,0.96
+1469487,"@AppleSupport And btw....if you wanted to help, you would actually offer to refund me for all the content I’ve bought off iTunes that isn’t available half the time because it doesn’t work. Long live physical media...it never fails to play.",refund_billing,refund_billing,,refund_billing,0.96
+1913043,@AppleSupport Other raws after second login. However in normal boot mode bar charges normally after Safe Mode boot. https://t.co/FAu1QXRiJW,refund_billing,product_issue,,product_issue,0.92
+1180599,"@AppleSupport I've synced my photos to my icloud, but how do I find my photos on icloud?",general_inquiry,general_inquiry,,general_inquiry,0.97
+2890773,"@AppleSupport I have to charge it twice daily at the moment. I’m on the newest 11.1.2 iOS. It’s really frustrating, I’ve never had these problems before",refund_billing,product_issue,,product_issue,0.94
+1962811,@AppleSupport I just sent. This is so ridiculous and I am beyond upset @115858,complaint_escalation,complaint_escalation,,complaint_escalation,0.88
+1704601,@AppleSupport So in order to fix this we have to take 3 steps to get the letter eye? Bye. https://t.co/1QXOo6mRBg,order_status,product_issue,,product_issue,0.78
+1420150,@AppleSupport @122928 i️ have auto capitalization turned off. capital letters are disgusting.,complaint_escalation,product_issue,,product_issue,0.78
+2893307,@AppleSupport Randomly when using any app! And now all my photos are out of chronically order in the all photos!,order_status,product_issue,,product_issue,0.96
+1367041,"@AppleSupport new problem: music undownloaded, and I can't download any apps/music/update phone. """"Error occurred""""",product_issue,product_issue,,product_issue,0.94
+2464877,@AppleSupport Honestly....do you not think I already checked this out and even made a comment on thread???  #iamnotstupid Others have same issue.,complaint_escalation,complaint_escalation,,complaint_escalation,0.93
+1625357,"@AppleSupport Not a matter of feedback, its supposed to be there. Its a bug.",product_issue,product_issue,,product_issue,0.96
+518361,"@AppleSupport @239559 Seems a lot of people are having this issue. Must you do it in DM, or could you share the solution with the rest of us?",complaint_escalation,general_inquiry,,general_inquiry,0.96
+2255331,@AppleSupport Well the first glitching was my battery. I️ would leave my house at 7:15 for school at 100-98% and by 8:25 I’d be at 1% without using my phone. The IOS I️ believe is 11.1.,product_issue,product_issue,,product_issue,0.97
+2801472,"@AppleSupport I cannot. Before the error was occurring when I was attempting to restart the iMac from the Apple menu. Other users were logged in, prompting for the admin Apple ID and password. Since, the iMac has been hard restarted and their are no other logged in users, thus, no prompt",account_access,account_access,,product_issue,0.96
+512470,@AppleSupport It's asking me for a verification code...which I can't get because my device can't sign in.,account_access,account_access,,account_access,0.97
+2128222,@AppleSupport How do I revert to previous iOS? Can I Delete iOS 11?,general_inquiry,general_inquiry,,general_inquiry,0.97
+1335362,"@AppleSupport oh it’s only happening in my self made album playlists, so maybe a sync with Mac tonight may sort it. In Library: Albums the order is fine",order_status,order_status,,product_issue,0.96
+1752307,@AppleSupport what is the solution for text that i️ read to be swapped? and for the inconsistent way it is delivered via imessage to different devices?,general_inquiry,product_issue,,product_issue,0.94
+506468,@AppleSupport we’re both using the same apple id. she doesn’t have an apple music so she’s just listening to a song she BOUGHT on itunes yesterday . i pay for individual apple music monthly . w,account_access,account_access,,general_inquiry,0.0
+1416059,@AppleSupport @449093 Issue seems common,complaint_escalation,product_issue,,product_issue,0.78
+164186,@AppleSupport i’m streaming music now but it still does it sometimes when i’m offline,general_inquiry,product_issue,,product_issue,0.96
+2492335,@AppleSupport Upgraded last night. Used iPad this afternoon and battery drained from 100% to 45. Turned off and back on again 10 mins ltr. Back up to 95. Turned off and got home to see battery down to 16%. Now at 96% after recharge. See attached https://t.co/u7axnPF9H1,refund_billing,product_issue,,product_issue,0.96
+1962967,@AppleSupport Been online chatting to your so-called support who said I’d be charged to have it unbricked. Going 2 the media as this is common fault,refund_billing,complaint_escalation,,complaint_escalation,0.97
+1002058,"@AppleSupport Nope, I want to know my pace and time when I hit 5K, 10K, and half. How can I see that without having to add the time per mile?",general_inquiry,general_inquiry,,general_inquiry,0.97
+148221,"@AppleSupport Oh wow , thanks a lot. But if you can add this feature in reset for removes the encrypted backup password.
+it's better,because it's boring to rebuild my screen  apps and my folders, 
+Thanks again.",account_access,general_inquiry,,general_inquiry,0.93
+2076314,@AppleSupport C’mon apple you know its iOS issue.So there is no point in troubleshooting.Please tell me is there any way to downgrade iOS?,complaint_escalation,complaint_escalation,,general_inquiry,0.94
+553643,@AppleSupport Yes the issue did not repeat. Thank you for the quick response.,complaint_escalation,product_issue,,product_issue,0.68
+2113968,"@AppleSupport It started with the new iOS, I lock my screen then unlock and my apps reappear.",product_issue,product_issue,,product_issue,0.96
+215356,@AppleSupport It happens when I don’t have notifications on the lock screen. It happened this evening for the first time. Restarting did help!,product_issue,product_issue,,product_issue,0.96
+2573931,"@AppleSupport It occurs mostly when I get phone calls and have my texts and/or YouTube open my phone gets stuck. When I scroll my camera option to video it freezes then I press the record button it hesitates, freezes at 0:00, beeps, then closes without recording.",product_issue,product_issue,,product_issue,0.97
+552132,"@AppleSupport Every new screen even before I unlock my phone I get the white screen that says sign in required w email address, place to type password and cancel or continue options. How do I make this ANNOYANCE STOP? Happened before update to iOS11.2 and worse after this update.",account_access,account_access,,product_issue,0.97
+2445243,"@AppleSupport When I use the apps, The iPhone will show the resetting screen then turn back on again to enter my passcode. iOS 11.1.1",product_issue,product_issue,,product_issue,0.96
+1352924,"@AppleSupport The order just went though, but thanks for offering!",order_status,order_status,,order_status,0.45
+2743002,"@AppleSupport I click the link in the email, sign into iTunes, it spins and no error message, no download",account_access,account_access,,product_issue,0.96
+1334370,@AppleSupport Thank you. I am absolutely gutted. I thought the app was the most easiest way to pre order. Missed out and was so close 😔,order_status,order_status,,general_inquiry,0.0
+1145981,@AppleSupport I have iOS 11.0.2 not installing .3 because I’ve heard there is still not battery fix. I use this phone for 10 minutes and then must charge,refund_billing,product_issue,,product_issue,0.96
+1112148,@AppleSupport @382472 worst after sales service provider,complaint_escalation,complaint_escalation,,complaint_escalation,0.96
+1349221,@AppleSupport Not sure but did the most recent update. So probably the latest. Battery been bad from the beginning though.,product_issue,product_issue,,product_issue,0.96
+522987,@AppleSupport @240823 Every time i try to download a app or update one it asks for my billing information even tho the app is free. What do i do.,refund_billing,refund_billing,,refund_billing,0.94
+2856754,"@AppleSupport Thanks, yes I did install the update last night. My texts are glitchy - won't open outside links, can't text photos without going into text message first, etc. Also, phone randomly shuts down around 45F or less.",product_issue,product_issue,,product_issue,0.97
+2728156,"@AppleSupport I have sent a DM, As I am still unable to access a device or PC. If I logged into my Apple ID account using my partners device, having backed his up, then erased &amp; restored the phone to his account, would the backup still be saved afterwards?",account_access,account_access,,general_inquiry,0.94
+2553986,@AppleSupport What is a DM which you want from me,general_inquiry,general_inquiry,,general_inquiry,0.96
+1097743,@AppleSupport Thx. used to very long charge as in days. already using tips best practices.,refund_billing,product_issue,,product_issue,0.92
+245369,@AppleSupport I’m thinking of getting the Series 3,other,general_inquiry,,general_inquiry,0.96
+285679,@AppleSupport I charged it last night so it will be a while before I run it down to below 20% again. I’ll go ahead and restart it though.,refund_billing,product_issue,,product_issue,0.93
+1332741,@AppleSupport Yes after restarting this bug went. Imessage is hanging a lot.,product_issue,product_issue,,product_issue,0.97
+1220505,@AppleSupport I've got an email from that address saying I've been billed for an app but It's not something I've ordered,order_status,refund_billing,,refund_billing,0.97
+2277655,"@AppleSupport “I’d rather not remove and re-add” but if that is my only option, I will. 
+
+Shouldn’t I be able to edit the login credentials in Settings, or is that no longer an option?",account_access,account_access,,account_access,0.96
+2799425,@AppleSupport just some of them! i didnt notice an order.,order_status,order_status,,order_status,0.78
+857916,@AppleSupport My phone will just power off no matter the percentage of the battery. And when I plug my phone into my charger it charges and turn on,refund_billing,product_issue,,product_issue,0.97
+1006058,@AppleSupport Feeling a bit discriminated that it is possible to order Danish and Swiss layout but no Swedish keyboard layout :( https://t.co/pVLrS1kKde,order_status,complaint_escalation,,general_inquiry,0.78
+1811674,"@AppleSupport I hate these “support messages”… They are nothing but BS. 
+*dear apple, how about not rolling out incomplete &amp; buggy updates. 
+sincerely, me https://t.co/BohAwU8epk",product_issue,complaint_escalation,,complaint_escalation,0.93
+602371,"@AppleSupport I'm currently using an iPhone 8 Plus. The same amount of force needed is universal across iOS (Music, Messages, Calendar…) and third party apps. I replicated the issue in another iPhone 8 Plus with iOS 11.2 as well.",complaint_escalation,product_issue,,product_issue,0.96
+2691899,@AppleSupport Trying to track the status of an order on the uk website,order_status,order_status,,order_status,0.99
+391241,@AppleSupport Hey Apple lol still having the same issue 🙂🙃,complaint_escalation,product_issue,,product_issue,0.78
+1358151,@AppleSupport I forwarded the email. I’m hoping that my account wasn’t hacked into. I changed my password through that email.,account_access,account_access,,account_access,0.96
+92602,"@AppleSupport Can I use the thunderbolt/usb port on an iPhone X to output phone audio?  You took away the headphone jack, so options seem to be limited.",general_inquiry,general_inquiry,,general_inquiry,0.97
+1205023,@AppleSupport I purchase in from China appstore. I've try to contact china apple support but they need to enter a China phone number in-order to arrange a call back (which I dont have). And Malaysia apple support's number redirect me to apple website again ... I'm really lost,order_status,order_status,,complaint_escalation,0.86
+53593,@AppleSupport Thanks so much but I think it’s not suitable for my case. I’m trying to know if I could use an iCloud email alias as my Apple ID (1 of 2),account_access,account_access,,general_inquiry,0.97
+2593265,@AppleSupport The update is crashing my phone. Can you tell me how to undo the download,product_issue,product_issue,,product_issue,0.97
+1575103,@AppleSupport I did not encounter the glitch after restarting or changing the video resolutions.,product_issue,product_issue,,product_issue,0.94
+934440,"@AppleSupport The iPhone started at 100% charge at the start, and then dropped to 50% after 3 hours, yes",refund_billing,product_issue,,product_issue,0.96
+1463529,"@AppleSupport I figured out that it's a UI/UX design gripe. Non 3D touch devices, in order to clear all (even current) notifications: Unlock. Lock. Unlock. Swipe down. Finally x appears to clear current notifications. iOS 11 is more cumbersome to use. 2nd example: control center BT and WiFi.",order_status,general_inquiry,,product_issue,0.97
+1301350,@AppleSupport Never mind. Finally found how to do it.,general_inquiry,general_inquiry,,general_inquiry,0.42
+801738,@AppleSupport My phone and my iPad are spinning totally.. Idk why? What is the reason? Maybe it‘s the new Update?,general_inquiry,product_issue,,product_issue,0.97
+2118385,@AppleSupport @624313 I am also getting the same error after recent beta upgrade!!! https://t.co/6YQqNieRIq,product_issue,product_issue,,product_issue,0.96
+810342,@AppleSupport Can iOS 11 search for what I have wrote in Notes? I remember that wwdc 2017 someone showed it for us,general_inquiry,general_inquiry,,general_inquiry,0.97
+2972431,"@AppleSupport Yes. Mostly certain apps, but weird things happen too.  For example the other day apps were missing from my screen. I could swipe either direction and they’d be gone. I locked it and they came back. Resetting always works",product_issue,product_issue,,product_issue,0.96
+238244,"@AppleSupport I tried the steps in the article, but I don’t have any other iPhone charger on hand to give that a try.
+And no, the charger is not Apple",refund_billing,product_issue,,product_issue,0.96
+2792051,@AppleSupport How can I sync my iPod to instal all my old songs ... via the cloud is that possible,general_inquiry,general_inquiry,,general_inquiry,0.97
+1151816,"@AppleSupport 1- for the first time of my life I experience lagging with iOS ( the main reason I shifted from android to apple) 
+2- lots of glitches",product_issue,product_issue,,product_issue,0.97
+2355963,@AppleSupport After typing out text messages it will glitch and close out. Every time i type i  i get this I️   When I open a text message sometimes the keyboard is stuck so i cannot see the message someone has sent me or what i am typing back. That’s just some of the problems!,product_issue,product_issue,,product_issue,0.97
+588164,@AppleSupport Think the issue has been sorted now. Thanks anyway.,complaint_escalation,complaint_escalation,,general_inquiry,0.92
+2783356,@AppleSupport I think there might be some misunderstanding. When I click on the order no. I can see all my past orders except for the one the email mentions. Can I check an order via Twitter? Per DM e.g.? To see if this was the aborted AppleCare+ order?,order_status,order_status,,order_status,0.97
+1155254,"@AppleSupport Yes, it worked properly and I was able to charge my phone long enough to get some battery life",refund_billing,product_issue,,general_inquiry,0.0
+1598595,@AppleSupport iPhone 7 32gig. iOS 11.1 but had same issue in iOS 10 on a 16 gig iPhone 5.,complaint_escalation,product_issue,,product_issue,0.96
+2975791,@AppleSupport Several times. You all may want to investigate this further. I’ve seen quite a few people posting having the  same issue.,complaint_escalation,product_issue,,product_issue,0.86
+2424407,@AppleSupport I keep updating hoping the issues get fixed but they get worse,complaint_escalation,complaint_escalation,,product_issue,0.96
+1360163,@AppleSupport I tried. There is no option allowing one to change/edit shipping address of an existing order.,order_status,order_status,,order_status,0.97
+1973633,@AppleSupport Keyboard on all apps. Sound issues only when trying loud speaker (doesn’t work) during phone call despite button being pressed.,complaint_escalation,product_issue,,product_issue,0.96
+812218,"@AppleSupport Thank you, but I follow all of those tips routinely. Updating to 11.0.2 simply changed how long my charge holds regardless of what I do.",refund_billing,product_issue,,product_issue,0.96
+2512318,"@AppleSupport No, it just freezes the screen and a stationary pinwheel appears on the screen which I'm then unable to move, they keys don't work either apart from the off switch. When I manually restart it says ~""Your Mac shut down because of a problem"".",product_issue,product_issue,,product_issue,0.97
+92824,@AppleSupport How about u just get the phone to me. Stuck in China for 8 days. Expidited fast shipping my ass,order_status,complaint_escalation,,complaint_escalation,0.86
+919172,"@AppleSupport I tried chatting with them. They said, ""Once it has been shipped delivery is out of our control.""",order_status,order_status,,order_status,0.92
+746875,"@AppleSupport I’m having issues with both, it takes long to connect and doesn’t stay connected",complaint_escalation,product_issue,,product_issue,0.93
+553472,"@AppleSupport Not what was wrong. I reset phone, holding power and volume, more than 3 times. Then my phone went from 100% battery to 10% &amp; dying in 3hrs. I didn’t plug charger letting it drain. Plugged in charger, it started charging and now it’s not locking me out",refund_billing,product_issue,,product_issue,0.96
+2568170,@AppleSupport Apple iphone 6. Hope u are fixing the ios 11.0.3 bug quickly @AppleSupport,product_issue,product_issue,,product_issue,0.96
+1466149,@AppleSupport I’ll try out the new sim on receipt and take it from there. Thank you..,refund_billing,product_issue,,general_inquiry,0.68
+1934260,"@AppleSupport I’ve even through this with you, checking all notifications apps off. It’s not working.",product_issue,product_issue,,product_issue,0.93
+1670011,"@AppleSupport No it’s random, I’ll swipe they will be gone, I swipe back they return. I’m on iOS11.0.3 but have had the issue since 11.",complaint_escalation,product_issue,,product_issue,0.96
+769648,@AppleSupport I needed to urgently order something but the app doesnt allow me add items to basket. Had to do it through its website. I have iOS11.0.2,order_status,product_issue,,product_issue,0.96
+1405422,@AppleSupport My credit card charged for bully anniversary edition and all now I can’t get the app to download on my iPad,refund_billing,refund_billing,,refund_billing,0.78
+1136346,@AppleSupport So far i think its the only place i find with this issue.,complaint_escalation,product_issue,,product_issue,0.73
+208214,"@AppleSupport Also, it never dies when it’s plugged in to the charger. It’s died over and over for months now but always only when it’s not plugged in.",refund_billing,product_issue,,product_issue,0.97
+661573,"@AppleSupport Since the 11.1.2 update on my iPad, my email crashes all the time. Totally sucks. When will it be fixed?",order_status,product_issue,,product_issue,0.97
+2205889,@AppleSupport Works fine. Sorry I had to get angry. Just a concerned shareholder with 10k worth of your products sitting in my office.,complaint_escalation,complaint_escalation,,complaint_escalation,0.92
+391234,"@AppleSupport Of course I don’t. But that’s the whole point of 2FA! If someone discovered my pw, 2FA does nothing. Right?",account_access,account_access,,account_access,0.97
+1071223,"@AppleSupport @129182 Enjoy your free replacement key. At just $49.95 (plus shipping), it's a steal!",order_status,general_inquiry,,general_inquiry,0.0
+1230326,@AppleSupport I know it's phony. What is Apple doing to stop it?,general_inquiry,general_inquiry,,complaint_escalation,0.96
+1138323,"@AppleSupport Hi, I game WiFi available. What is the next step??",general_inquiry,general_inquiry,,product_issue,0.78
+2548127,@AppleSupport iOS 11.0.3. Now it’s saying it has been downloaded but every time Iv tried it says error and the notification is still there,product_issue,product_issue,,product_issue,0.96
+1744836,@AppleSupport Apple Support issue has not gone away. Advise ASAP.,complaint_escalation,complaint_escalation,,complaint_escalation,0.82
+2371197,"@AppleSupport @684201 Not OP but I’m seeing this issue as well on Safari and Chrome, this needs to be fixed… https://t.co/v24bjQ978D",complaint_escalation,complaint_escalation,,product_issue,0.96
+84178,"@AppleSupport Something wrong with phone.
+-slow charging(from the beginning)
+-mostly animation isn’t working in imsg
+-sometimes hangs stuck to a single sceen(rarely)
+-sometimes it doesnt vibrate(rarely)
+-whatsapp/imsg interface gets change when we do multitasking with 2-3 apps.
+
+Pls replace it",product_issue,product_issue,,product_issue,0.96
+2008028,"@AppleSupport I am surprised with this reply. This is a software issue, how does a restart would solve this? FYI: The issue is still not resolved, I am using iOS 11.1.1 https://t.co/JjScrPlUv7",complaint_escalation,complaint_escalation,,product_issue,0.97
+265041,@AppleSupport Yes it will just stop working and I have to use 4g. I’ve reset my network settings and reconnected to the WiFi but it still does it,general_inquiry,product_issue,,product_issue,0.96
+2739461,@AppleSupport Am i safe to update my password using my MacBook Pro and then log into my iPhone 6 using the new password? I don’t understand why this would come up. I️ didn’t attempt to erase my phone or use “find my iPhone” https://t.co/tIWw34iZLV,account_access,account_access,,account_access,0.97
+1417035,@AppleSupport Nope. It’s like it won’t talk to my car. It does charge while it’s plugged in. Just no “data” going thought,refund_billing,product_issue,,product_issue,0.96
+676047,"@AppleSupport Yupp, but when I updated to ios11, it changed my location to out of the US, so I figured out how to change it but it still deleted my songs",general_inquiry,account_access,,general_inquiry,0.0
+148088,@AppleSupport not receiving the verification code Help me Please,account_access,account_access,,general_inquiry,0.0
+1335185,@AppleSupport okay yes I did end up getting an updated email with some of my order details so that will do! Can't wait for the 3rd woohoo!😁,order_status,order_status,,order_status,0.97
+287450,@AppleSupport No not using low power mode. Seeing many others having same problem as I am with slow glitchy phone.  When will this update be fixed?,order_status,complaint_escalation,,product_issue,0.96
+2833085,@AppleSupport Stuck on progress bar and won't go to login screen. It's running MacOS either Sierra or the newest one out. Tried safe booting and all those tricks and nothing,account_access,product_issue,,product_issue,0.97
+612981,@AppleSupport What is happening I bought it before one week and it happened alone ?????😡😡😡😡 https://t.co/0IPJhhXk1a,general_inquiry,product_issue,,product_issue,0.78
+123097,@AppleSupport Same Apple ID,account_access,account_access,,general_inquiry,0.62
+2352116,@AppleSupport @679741 @AppleSupport you guys are useless. People will know soon. We will educate everyone,complaint_escalation,complaint_escalation,,complaint_escalation,0.97
+2364468,@AppleSupport Login works. But once logged in the screen is fully white (safari is 11.0.1),account_access,account_access,,product_issue,0.94
+1211215,@AppleSupport The problem burning up in my pocket by the Touch ID/Home button is also not working.,product_issue,product_issue,,product_issue,0.97
+1120554,@AppleSupport Battery draining heavily in iPhone 5s with this IOS 11 update,product_issue,product_issue,,product_issue,0.97
+36647,"@AppleSupport Too laggy and i think 11.1 more laggy for old iphone and worst when low battery, i very miss the all days on 10.",complaint_escalation,complaint_escalation,,product_issue,0.96
+1338831,"@AppleSupport Hello, yes. Every month Deezer takes a payment and iTunes takes an additional £12.99 please can this be stopped and refunded. Thank you!",refund_billing,refund_billing,,refund_billing,0.97
+1521963,@AppleSupport my phone charges slow,refund_billing,product_issue,,product_issue,0.96
+2210727,@AppleSupport So can you guys give me a new phone because i updated it like y’all said and now every app be acting stupid and it exists it out and it’s you’re fault so,other,product_issue,,product_issue,0.96
+794600,@AppleSupport Just fix the software in that way that the user doesn’t have to reset all settings or erase the phone in order to get a phone that works!,order_status,product_issue,,product_issue,0.92
+2255272,"@AppleSupport I've restarted, deleted and re-added the album, I signed out of my iTunes account, tried repurchasing the album etc... I'm over it.  Also- never received my fan code for purchasing pre-order.  It's all so disappointing, should have just waited until it's available on @115888",order_status,product_issue,,complaint_escalation,0.85
+1481906,@AppleSupport My Apple ID has been in recovery for 3 days since I broke my phone and I wanna know how much longer cause I'm going crazy,account_access,account_access,,account_access,0.97
+1011790,@AppleSupport @AppleSupport for iOS 12 as a new feature that allows u to charge ur iPhone iPod and iPad automatically without putting it in the,refund_billing,general_inquiry,,general_inquiry,0.96
+2105981,"@AppleSupport Yes. 1st, no notif to some messages. 2nd, messages aren’t in order.  3rd, messages in general is slower than that of iOS10.",order_status,product_issue,,product_issue,0.96
+620144,@AppleSupport My iPhone..it keeps wanting me to put my password in for my exchange account then it says it’s wrong. I can’t even reset it through my actual email website.,account_access,account_access,,account_access,0.97
+2077530,"@AppleSupport Battery drains, won’t hold charge, and screens freeze, go haywire. U do this on purpose so I upgrade, buy ur iPhone 8?",refund_billing,complaint_escalation,,product_issue,0.86
+406624,@AppleSupport Thanks but what if you didn't mean to do it. It just tells you how to report junk. Not how to undo it. 😬,general_inquiry,general_inquiry,,general_inquiry,0.78

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiver AI Support Agent</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="header">
+      <h1 class="header-title">Hiver AI Support Agent</h1>
+      <p class="header-subtitle">Analyze an Apple customer tweet</p>
+    </header>
+
+    <main class="main-content">
+      <!-- Preset Examples Section -->
+      <section class="section presets-section" aria-labelledby="presets-title">
+        <h2 id="presets-title" class="section-title">Preset Examples</h2>
+        <div class="preset-buttons">
+          <button type="button" class="preset-btn" data-text="My iPhone 15 order is late.">
+            My iPhone 15 order is late.
+          </button>
+          <button type="button" class="preset-btn" data-text="I was charged twice for the same app.">
+            I was charged twice for the same app.
+          </button>
+          <button type="button" class="preset-btn" data-text="I'm locked out of my Apple ID.">
+            I'm locked out of my Apple ID.
+          </button>
+          <button type="button" class="preset-btn" data-text="This is the THIRD time. I want a refund and I'm contacting my lawyer.">
+            This is the THIRD time. I want a refund and I'm contacting my lawyer.
+          </button>
+        </div>
+      </section>
+
+      <!-- Customer Message Input Section -->
+      <section class="section input-section" aria-labelledby="input-title">
+        <div class="section-header-row">
+          <h2 id="input-title" class="section-title">Customer Message</h2>
+          <span class="shortcut-hint">Ctrl + Enter to submit</span>
+        </div>
+        <div class="textarea-wrapper">
+          <textarea
+            id="customer-input"
+            class="customer-textarea"
+            placeholder="Type a customer tweet here..."
+            rows="5"
+            aria-label="Customer tweet text"
+          ></textarea>
+        </div>
+        <div class="input-actions">
+          <div id="char-counter" class="char-counter">0 / 280</div>
+          <button type="button" id="analyze-btn" class="btn btn-primary">
+            Analyze
+          </button>
+        </div>
+      </section>
+
+      <!-- Status & Error Displays -->
+      <div id="error-card" class="error-card hidden" role="alert">
+        <span class="error-icon" aria-hidden="true">⚠️</span>
+        <div class="error-content">
+          <strong class="error-title">Error:</strong>
+          <span id="error-message" class="error-message"></span>
+        </div>
+      </div>
+
+      <div id="loading-container" class="loading-card hidden" aria-live="polite">
+        <div class="spinner"></div>
+        <p id="loading-text" class="loading-text">Loading model… first request may take 15 seconds</p>
+      </div>
+
+      <!-- Results Section -->
+      <section id="results-section" class="results-section hidden" aria-label="Analysis Results">
+        <h2 class="section-title results-heading">Results</h2>
+
+        <div class="results-grid">
+          <!-- CARD 1: Intent -->
+          <article class="card intent-card">
+            <div class="card-header">
+              <h3 class="card-title">Intent</h3>
+              <span id="confidence-badge" class="badge confidence-badge">--%</span>
+            </div>
+            <div class="card-body">
+              <div class="field-group">
+                <span class="field-label">Detected Intent</span>
+                <span id="intent-name" class="intent-name-highlight">--</span>
+              </div>
+              <div class="field-group">
+                <span class="field-label">Classifier Reason</span>
+                <p id="classifier-reason" class="reason-text">--</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2: Routing -->
+          <article class="card routing-card">
+            <div class="card-header">
+              <h3 class="card-title">Routing Decision</h3>
+              <span id="routing-badge" class="badge decision-badge">--</span>
+            </div>
+            <div class="card-body">
+              <div class="field-group">
+                <span class="field-label">Escalate To / Handler</span>
+                <span id="escalate-target" class="target-badge">--</span>
+              </div>
+              <div class="field-group">
+                <span class="field-label">Routing Reason</span>
+                <p id="routing-reason" class="reason-text">--</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3: Retrieved Examples -->
+          <article class="card retrieved-card full-width-card">
+            <div class="card-header">
+              <h3 class="card-title">Retrieved Examples</h3>
+            </div>
+            <div class="card-body">
+              <div id="retrieved-list" class="retrieved-list">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 4: Draft Reply -->
+          <article class="card draft-card full-width-card">
+            <div class="card-header">
+              <h3 class="card-title">Draft Reply</h3>
+              <span id="reply-counter" class="reply-counter">Character count: 0 / 280</span>
+            </div>
+            <div class="card-body">
+              <div class="reply-bubble-container">
+                <div class="reply-avatar" aria-hidden="true"></div>
+                <div class="reply-bubble">
+                  <div class="reply-author">@AppleSupport</div>
+                  <p id="draft-reply-text" class="reply-text">--</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+"""Unified LLM client: Groq primary, OpenAI fallback. Both use OpenAI SDK."""
+import os
+from dotenv import load_dotenv
+from openai import OpenAI
+
+from . import config
+
+load_dotenv()
+
+_groq_client = None
+_openai_client = None
+
+
+def _client():
+    global _groq_client, _openai_client
+    if os.getenv("GROQ_API_KEY"):
+        if _groq_client is None:
+            _groq_client = OpenAI(
+                api_key=os.getenv("GROQ_API_KEY"),
+                base_url="https://api.groq.com/openai/v1",
+            )
+        return _groq_client, config.GROQ_MODEL
+    if os.getenv("OPENAI_API_KEY"):
+        if _openai_client is None:
+            _openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        return _openai_client, config.OPENAI_MODEL
+    raise RuntimeError("No API key found. Set GROQ_API_KEY or OPENAI_API_KEY in .env")
+
+
+def chat(system: str, user: str, temperature: float = None, max_tokens: int = None) -> str:
+    client, model = _client()
+    resp = client.chat.completions.create(
+        model=model,
+        temperature=temperature if temperature is not None else config.TEMPERATURE,
+        max_tokens=max_tokens or config.MAX_TOKENS,
+        messages=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+    )
+    return resp.choices[0].message.content.strip()
+
+def chat_fast(system: str, user: str, max_tokens: int = 300) -> str:
+    """Use llama-3.3-70b-versatile — non-reasoning, always returns text in content."""
+    import os
+    from openai import OpenAI
+    if os.getenv("GROQ_API_KEY"):
+        client = OpenAI(
+            api_key=os.getenv("GROQ_API_KEY"),
+            base_url="https://api.groq.com/openai/v1",
+        )
+        resp = client.chat.completions.create(
+            model="openai/gpt-oss-120b",
+            temperature=config.TEMPERATURE,
+            max_tokens=max_tokens,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
+            ],
+        )
+        return (resp.choices[0].message.content or "").strip()
+    return chat(system, user, max_tokens=max_tokens)
