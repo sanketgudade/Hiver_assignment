@@ -87,8 +87,14 @@ The Golden Set consists of 200 hand-labelled tweets sampled from 20,000 AppleSup
 | Pearson r | -0.236 |
 | Mean absolute error | 1.75 |
 
-The LLM judge agrees with a human scorer at κ=-0.177
-(slight agreement). This is the honest check on judge validity.
+The LLM judge agrees with a human scorer at κ=-0.177 (poor agreement, below chance). This is the honest check on judge validity.
+
+**Interpretation.** A negative quadratic kappa means the LLM judge and the human scorer disagree systematically — the judge is not a reliable proxy for human helpfulness ratings on this task. Consequences for the report:
+- **The reply-quality numbers (10.2 and 6.8 on the 0-25 scale) should be read as judge-internal signals, not as human-aligned quality measurements.** They tell us the judge thinks drafts are mediocre, but we cannot assume a human would agree.
+- The 5-criterion rubric asks the judge to score dimensions the human was not asked to consider (accuracy, tone, groundedness, brevity), which may cause the judge to weigh the reply differently than a human scoring only helpfulness. This is one plausible cause.
+- N=20 is small and human scoring was done in one sitting — both introduce noise. A proper agreement study would use 100+ items and multiple raters.
+
+This negative result is the honest check the assignment asked for: LLM-as-judge is only as good as its validation, and on this task it failed validation. We report it rather than omit it.
 
 ### Routing (audited, not accuracy-scored)
 
@@ -107,6 +113,12 @@ decisions are not observable. We audited policy consistency instead:
 Escalation reasons explain *policy* (security, money, commitment), not just
 rule restatement — the earlier `"Not in allowlist"` reason was circular and
 was replaced.
+
+### What's Misleading / Metric Caveats
+
+- **The judge itself is unvalidated.** Judge-human kappa is -0.177 (poor, below chance). Every reply-quality number in this report derives from that judge and should be treated as a *relative* internal signal, not an absolute quality measure.
+- **Accuracy is high (80.5%), but context is single-turn.** Customer tweets on social media often reference prior interactions or omit device models that require back-and-forth conversational disambiguation.
+- **Reply helpfulness scores are depressed by brand grounding.** AppleSupport's historical training distribution is 86% "Please DM us" redirection. A model grounded in realistic brand data will reproduce this protective deflection rather than providing full public diagnostic manuals.
 
 ---
 

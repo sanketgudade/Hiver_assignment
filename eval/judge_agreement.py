@@ -52,8 +52,10 @@ def get_interpretation(kappa: float) -> str:
         return "moderate agreement"
     elif kappa > 0.20:
         return "fair agreement"
-    else:
+    elif kappa >= 0.00:
         return "slight agreement"
+    else:
+        return "poor agreement (below chance)"
 
 
 def main():

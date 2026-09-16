@@ -5,7 +5,7 @@
   "quadratic_cohen_kappa": -0.177,
   "pearson_r": -0.236,
   "mean_absolute_error": 1.75,
-  "interpretation": "slight agreement",
+  "interpretation": "poor agreement (below chance)",
   "details": [
     {
       "tweet_id": 1761317,
