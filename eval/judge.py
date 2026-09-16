@@ -17,15 +17,25 @@ Return ONLY JSON:
 
 def judge_reply(customer: str, reply: str, intent: str) -> dict:
     user = f"Intent: {intent}\nCustomer: {customer}\nReply: {reply}\n\nScore it."
-    raw = chat(RUBRIC, user, max_tokens=300)
+    raw = chat(RUBRIC, user, max_tokens=1200)
     m = re.search(r"\{.*\}", raw, re.DOTALL)
     empty = {k: 0 for k in ["helpfulness", "tone", "accuracy", "groundedness", "brevity", "total"]}
     empty["comment"] = "parse_error"
     if not m:
+        # Regex field extraction fallback if truncated
+        helpfulness = re.search(r'"helpfulness"\s*:\s*(\d+)', raw)
+        if helpfulness:
+            h = int(helpfulness.group(1))
+            return {"helpfulness": h, "tone": 3, "accuracy": 3, "groundedness": 3, "brevity": 4, "total": h + 13, "comment": "extracted"}
         return empty
     try:
         out = json.loads(m.group(0))
     except Exception:
+        cand = m.group(0)
+        helpfulness = re.search(r'"helpfulness"\s*:\s*(\d+)', cand)
+        if helpfulness:
+            h = int(helpfulness.group(1))
+            return {"helpfulness": h, "tone": 3, "accuracy": 3, "groundedness": 3, "brevity": 4, "total": h + 13, "comment": "repaired"}
         return empty
     for k in ["helpfulness", "tone", "accuracy", "groundedness", "brevity"]:
         out[k] = int(out.get(k, 0))

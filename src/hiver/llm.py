@@ -1,7 +1,8 @@
 """Unified LLM client: Groq primary, OpenAI fallback. Both use OpenAI SDK."""
 import os
+import time
 from dotenv import load_dotenv
-from openai import OpenAI
+from openai import OpenAI, RateLimitError
 
 from . import config
 
@@ -29,34 +30,61 @@ def _client():
 
 def chat(system: str, user: str, temperature: float = None, max_tokens: int = None) -> str:
     client, model = _client()
-    resp = client.chat.completions.create(
-        model=model,
-        temperature=temperature if temperature is not None else config.TEMPERATURE,
-        max_tokens=max_tokens or config.MAX_TOKENS,
-        messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ],
-    )
-    return resp.choices[0].message.content.strip()
-
-def chat_fast(system: str, user: str, max_tokens: int = 300) -> str:
-    """Use llama-3.3-70b-versatile — non-reasoning, always returns text in content."""
-    import os
-    from openai import OpenAI
-    if os.getenv("GROQ_API_KEY"):
-        client = OpenAI(
-            api_key=os.getenv("GROQ_API_KEY"),
-            base_url="https://api.groq.com/openai/v1",
-        )
+    try:
         resp = client.chat.completions.create(
-            model="openai/gpt-oss-120b",
-            temperature=config.TEMPERATURE,
-            max_tokens=max_tokens,
+            model=model,
+            temperature=temperature if temperature is not None else config.TEMPERATURE,
+            max_tokens=max_tokens or config.MAX_TOKENS,
             messages=[
                 {"role": "system", "content": system},
                 {"role": "user", "content": user},
             ],
         )
-        return (resp.choices[0].message.content or "").strip()
+        return resp.choices[0].message.content.strip()
+    except RateLimitError as e:
+        if "openai/gpt-oss-120b" in model:
+            time.sleep(1)
+            resp = client.chat.completions.create(
+                model="openai/gpt-oss-20b",
+                temperature=temperature if temperature is not None else config.TEMPERATURE,
+                max_tokens=max_tokens or config.MAX_TOKENS,
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user},
+                ],
+            )
+            return resp.choices[0].message.content.strip()
+        raise e
+
+
+def chat_fast(system: str, user: str, max_tokens: int = 300) -> str:
+    """Fast non-reasoning LLM call with rate limit resilience."""
+    if os.getenv("GROQ_API_KEY"):
+        client = OpenAI(
+            api_key=os.getenv("GROQ_API_KEY"),
+            base_url="https://api.groq.com/openai/v1",
+        )
+        try:
+            resp = client.chat.completions.create(
+                model="openai/gpt-oss-120b",
+                temperature=config.TEMPERATURE,
+                max_tokens=max_tokens,
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user},
+                ],
+            )
+            return (resp.choices[0].message.content or "").strip()
+        except RateLimitError:
+            time.sleep(1)
+            resp = client.chat.completions.create(
+                model="openai/gpt-oss-20b",
+                temperature=config.TEMPERATURE,
+                max_tokens=max_tokens,
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user},
+                ],
+            )
+            return (resp.choices[0].message.content or "").strip()
     return chat(system, user, max_tokens=max_tokens)
